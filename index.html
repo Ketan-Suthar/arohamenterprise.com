@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <title>Aroham Enteprise</title>
+    <title>Aroham Enterprise</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -54,7 +54,7 @@ https://templatemo.com/tm-568-digimedia
               <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="row">
                   <div class="col-lg-12">
-                    <h6>Aroham Enteprise</h6>
+                    <h6>Aroham Enterprise</h6>
                     <div class="fix" height="100%">
                       <h2 class="header-sub-title" id="word">Loan</h2>
                     </div>
@@ -142,11 +142,6 @@ https://templatemo.com/tm-568-digimedia
         <div class="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
           <form id="contact" action="" method="post">
             <div class="row">
-              <div class="col-lg-12">
-                <div class="contact-dec">
-                  <img src="assets/images/contact-dec-v3.png" alt="">
-                </div>
-              </div>
               <div class="col-lg-6">
                 <div id="map">
                   <iframe title="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229.54044091691665!2d72.65912197903107!3d23.000002704963535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e870004974279%3A0x590db4e13fadac63!2sNY%20Reading%20Library!5e0!3m2!1sen!2sin!4v1723654460901!5m2!1sen!2sin"
@@ -154,32 +149,19 @@ https://templatemo.com/tm-568-digimedia
                 </div>
               </div>
               <div class="col-lg-6">
-                <div class="fill-form">
-                  <div class="row">
-                    <div class="col-lg-3">
-                      <div class="info-post">
-                        <div class="icon">
-                          <img src="assets/images/phone-icon.png" alt="">
-                          <a href="#">+91 8200712675</a>
-                        </div>
-                      </div>
+                  <div style="padding-top: 50px;">
+                    <div>
+                        <h3 class="fadeIn">Jay Suthar</h3>
                     </div>
-                    <div class="col-lg-6">
-                      <div class="info-post">
-                        <div class="icon">
-                          <img src="assets/images/email-icon.png" alt="">
-                          <a href="#">jay@arohamenteprise.com</a>
-                        </div>
-                      </div>
+                    <div class="">
+                      <h4 class="fadeIn" style="margin-top: 20px;">+91 8200712675</h4>
                     </div>
-                    <div class="col-lg-3">
-                      <div class="info-post">
-                        <div class="icon">
-                          <img src="assets/images/location-icon.png" alt="">
-                          <a href="#">Vastral, Ahmedabad</a>
-                        </div>
-                      </div>
+                    <div class="">
+                        <h4 class="fadeIn" style="margin-top: 20px;">jay@arohamenteprise.com</h4>
                     </div>
+                    <div style="margin-top: 20px;">
+                      <p class="fadeIn">7-Ground floor, Siddhi Vinayak Plaza, Opp. Tejendra Complex,</p>
+                      <p class="fadeIn">Nr. Nirant Cross Road, Vastral, Ahmedabad, Gujarat - 382418</p>
                     </div>
                   </div>
                 </div>
@@ -213,10 +195,10 @@ function typingEffect() {
 		if (word.length > 0) {
 			document.getElementById('word').innerHTML += word.shift();
 		} else {
-			deletingEffect();
+      setTimeout(deletingEffect, 700)
 			return false;
 		};
-		timer = setTimeout(loopTyping, 100);
+		timer = setTimeout(loopTyping, 70);
 	};
 	loopTyping();
 };
@@ -236,7 +218,7 @@ function deletingEffect() {
 			typingEffect();
 			return false;
 		};
-		timer = setTimeout(loopDeleting, 150);
+		timer = setTimeout(loopDeleting, 100);
 	};
 	loopDeleting();
 };
