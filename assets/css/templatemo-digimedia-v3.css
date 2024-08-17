@@ -181,7 +181,7 @@ body {
   z-index: 2;
 }
 
-.section-heading h6 {
+.section-heading h4 {
   font-size: 15px;
   font-weight: 700;
   color: #4da6e7;
@@ -927,13 +927,31 @@ Banner Style
   margin-right: 15px;
 }
 
-.main-banner .left-content h6 {
+.aroham {
   text-transform: capitalize;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 700;
   color: #4da6e7;
   margin-bottom: 15px;
   text-transform: uppercase;
+}
+
+.main-banner .left-content h6 {
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: 700;
+  color: #4da6e7;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.typing1{
+  z-index: 2;
+  position: relative;
+  font-weight: 700;
+  font-size: 50px;
+  color: #2a2a2a;
+  margin-bottom: 20px;
 }
 
 .main-banner .left-content h2 {
