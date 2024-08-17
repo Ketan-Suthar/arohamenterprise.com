@@ -887,7 +887,7 @@ Banner Style
 }
 
 #word{
-  color: black;
+  color: #233B87;
 }
 
 .main-banner {
@@ -900,9 +900,14 @@ Banner Style
   min-height: 100vh;
 }
 
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .main-banner:after {
   content: '';
-  background-image: url(../images/slider-left-dec.jpg);
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -914,7 +919,6 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/slider-right-dec.jpg);
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
