@@ -954,9 +954,9 @@ canvas {
   z-index: 2;
   position: relative;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 4vw;
   color: #2a2a2a;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 
 .main-banner .left-content h2 {
