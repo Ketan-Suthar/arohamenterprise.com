@@ -954,8 +954,8 @@ canvas {
   z-index: 2;
   position: relative;
   font-weight: 700;
-  font-size: 40px;
-  font-size: 8vm;
+  font-size: 35px;
+  font-size: 100vm;
   color: #2a2a2a;
   margin-bottom: 40px;
 }
